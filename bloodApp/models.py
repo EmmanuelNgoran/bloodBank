@@ -70,8 +70,8 @@ class Blood_bag(models.Model):
     donation = models.ForeignKey(Donation, on_delete=models.CASCADE)
     donation_center = models.ForeignKey(
         Donation_center, on_delete=models.CASCADE)
-    # validity = models.DateField()
-    # enter_date = models.DateField()
+     validity = models.DateField()
+    enter_date = models.DateField()
 
     def __str__(self):
         return "{}".format(self.donation.blood_group)
