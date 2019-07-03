@@ -22,7 +22,7 @@ class Donation_center(models.Model):
     center_telephone = models.CharField(max_length=20)
     open_time = models.TimeField()
     close_time = models.TimeField()
-    update_to_date = models.DateTimeField(auto_now=True)
+    updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return "{}".format(self.center_name)
