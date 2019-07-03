@@ -21,6 +21,7 @@ from bloodApp import views
 router = routers.DefaultRouter()
 router.register(r'test', views.TestViewSet)
 router.register(r'donation_center', views.DonationCenterViewSet)
+router.register(r'donation', views.DonationViewSet)
 
 
 urlpatterns = [
