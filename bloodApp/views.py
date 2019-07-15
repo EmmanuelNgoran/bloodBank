@@ -26,8 +26,8 @@ class DonationCenterViewSet(viewsets.ModelViewSet):
 
 
 class DonationViewSet(viewsets.ModelViewSet):
-    queryset = DonationCenter.objects.all()
-    serializer_class = DonationCenterSerializer
+    queryset = Donation.objects.all()
+    serializer_class = DonationSerializer
 
 class BloodBagViewSet(viewsets.ModelViewSet):
     queryset = BloodBag.objects.all()

@@ -19,8 +19,8 @@ class DonationCenterSerializer(serializers.HyperlinkedModelSerializer):
 class DonationSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Donation
-        fields = ('do_first_name','do_last_name','do_last_name','blood_group','age','gender',
-        'updated' ,'cnts_id','address','donation_center','created')
+        fields = ('do_first_name','do_last_name','blood_group','age','gender',
+        'cnts_id','address','donation_center','created')
 
 class BloodBagSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
