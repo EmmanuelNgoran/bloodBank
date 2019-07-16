@@ -1,5 +1,32 @@
-<p>
+<br>
+<table border="border">
+  <tr>
+      <th>First name</th>
+      <th>Last name</th>
+      <th>Gender</th>
+      <th>Age></th>
+      <th>Blood group</th>
+      <th>CNTS ID</th>
+      <th>Address</th>
+      <th>Center</th>
+      <th>Created</th>
+  </tr>
+  <tr  *ngFor="let donation of donations">
+    <td> {{donation.do_first_name}} </td>
+    <td> {{donation.do_last_name}} </td>
+    <td> {{donation.gender}} </td>
+    <td> {{donation.age}} </td>
+    <td> {{donation.blood_group}} </td>
+    <td> {{donation.cnts_id}} </td>
+    <td> {{donation.address}} </td>
+    <td> {{donation.donation_center}} </td>
+    <td> {{donation.created}} </td>
+  </tr>
+
+</table>
+
+<!-- <p>
   <li *ngFor="let donation of donations">
     {{donation.do_first_name}}/{{donation.age}}/{{donation.gender}}
   </li>
-</p>
+</p> -->
