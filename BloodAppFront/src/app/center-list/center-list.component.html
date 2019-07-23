@@ -1,0 +1,25 @@
+<br>
+<h1>Center list </h1>
+<table border="border">
+  <tr>
+      <th>Center namee</th>
+      <th>Address</th>
+      <th>Enter mobile</th>
+      <th>Center telephone</th>
+      <th>Center telephone</th>
+      <th>Opening time</th>
+      <th>Closing time</th>
+      <th>Center</th>
+      <th>Updated</th>
+  </tr>
+  <tr  *ngFor="let center of centers">
+    <td> {{center.center_name}} </td>
+    <td> {{center.address}} </td>
+    <td> {{center.center_mobile}} </td>
+    <td> {{center.center_telephone}} </td>
+    <td> {{center.open_time}} </td>
+    <td> {{center.close_time}} </td>
+    <td> {{center.updated}} </td>
+  </tr>
+
+</table>

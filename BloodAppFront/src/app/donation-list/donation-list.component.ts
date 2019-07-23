@@ -21,5 +21,4 @@ export class DonationListComponent implements OnInit {
   ngOnInit() {
     this.getDonations();
   }
-
 }
