@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DonationListComponent } from './donation-list/donation-list.component';
 import { CenterListComponent } from './center-list/center-list.component';
+import { CampaignListComponent } from './campaign-list/campaign-list.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     DonationListComponent,
-    CenterListComponent
+    CenterListComponent,
+    CampaignListComponent
   ],
   imports: [
     BrowserModule,

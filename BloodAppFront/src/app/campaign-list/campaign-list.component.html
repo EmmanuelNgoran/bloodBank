@@ -1,0 +1,17 @@
+<br>
+<h1>Campaign list </h1>
+<table border="border">
+  <tr>
+      <th>Campaign name</th>
+      <th>Start date</th>
+      <th>End date</th>
+      <th>Comment</th>
+  </tr>
+  <tr  *ngFor="let campaign of campaigns">
+    <td> {{campaign.campaign_name}} </td>
+    <td> {{campaign.start_date}} </td>
+    <td> {{campaign.end_date}} </td>
+    <td> {{campaign.comments}} </td>
+  </tr>
+
+</table>

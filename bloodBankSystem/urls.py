@@ -24,6 +24,7 @@ router.register(r'test', views.TestViewSet)
 router.register(r'donationCenter', views.DonationCenterViewSet)
 router.register(r'donation', views.DonationViewSet)
 router.register(r'CampaignCenter', views.CampaignCenterViewSet)
+router.register(r'Campaign', views.CampaignViewSet)
 
 
 urlpatterns = [
