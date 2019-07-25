@@ -67,7 +67,7 @@ class Donation(models.Model):
 
 
 class BloodBag(models.Model):
-    donation = models.ForeignKey(Donation, on_delete=models.CASCADE)
+    donation = models.ForeignKey(Donation, on_delete = models.CASCADE)
     donation_center = models.ForeignKey(
         DonationCenter, on_delete=models.CASCADE)
     validity = models.DateField()

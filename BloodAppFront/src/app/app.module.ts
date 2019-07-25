@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DonationListComponent } from './donation-list/donation-list.component';
 import { CenterListComponent } from './center-list/center-list.component';
 import { CampaignListComponent } from './campaign-list/campaign-list.component';
+import { CampaignCenterListComponent } from './campaign-center-list/campaign-center-list.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { CampaignListComponent } from './campaign-list/campaign-list.component';
     AppComponent,
     DonationListComponent,
     CenterListComponent,
-    CampaignListComponent
+    CampaignListComponent,
+    CampaignCenterListComponent
   ],
   imports: [
     BrowserModule,
