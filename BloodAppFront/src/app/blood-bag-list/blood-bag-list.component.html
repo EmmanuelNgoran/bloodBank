@@ -1,0 +1,17 @@
+<br>
+<h1>Blood bag list </h1>
+<table border="border">
+  <tr>
+      <th>Donation</th>
+      <th>Donation center</th>
+      <th>Validity</th>
+      <th>Enter date</th>
+  </tr>
+  <tr  *ngFor="let bloodBag of bloodBags">
+    <td> {{bloodBag.donation}} </td>
+    <td> {{bloodBag.donation_center}} </td>
+    <td> {{bloodBag.validity}} </td>
+    <td> {{bloodBag.enter_date}} </td>
+  </tr>
+
+</table>

@@ -7,6 +7,7 @@ import { DonationListComponent } from './donation-list/donation-list.component';
 import { CenterListComponent } from './center-list/center-list.component';
 import { CampaignListComponent } from './campaign-list/campaign-list.component';
 import { CampaignCenterListComponent } from './campaign-center-list/campaign-center-list.component';
+import { BloodBagListComponent } from './blood-bag-list/blood-bag-list.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CampaignCenterListComponent } from './campaign-center-list/campaign-cen
     DonationListComponent,
     CenterListComponent,
     CampaignListComponent,
-    CampaignCenterListComponent
+    CampaignCenterListComponent,
+    BloodBagListComponent
   ],
   imports: [
     BrowserModule,
